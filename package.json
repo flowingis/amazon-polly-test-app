@@ -1,0 +1,13 @@
+{
+  "name": "amazon-polly-example",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "scripts": {
+    "start": "npm start --prefix app",
+    "deploy": "npm run deploy --prefix lambda && npm run deploy  --prefix app",
+    "postinstall": "npm install --prefix lambda && npm install --prefix app"
+  }
+}

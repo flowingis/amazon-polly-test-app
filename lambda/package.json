@@ -1,0 +1,21 @@
+{
+  "name": "claudia-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "start": "claudia create --name web-api-test --region eu-central-1 --api-module web",
+    "deploy": "claudia update"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.679.0",
+    "claudia-api-builder": "^4.1.2",
+    "stream-to-promise": "^2.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "claudia": "^5.12.0"
+  }
+}
